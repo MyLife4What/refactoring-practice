@@ -13,7 +13,7 @@ Each subdirectory contains some code that needs refactoring.
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
 ```
-   1. Refactoring name of a function create_time_from_timestamp in timestamp.py to match PEP8.
+   1. Refactoring name a function create_time_from_timestamp in timestamp.py to match PEP8.
    2. Extract method to check valid time.
    3. Remove else condition.
 ```
