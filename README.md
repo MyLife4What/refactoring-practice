@@ -5,6 +5,14 @@ Copy this template repository to your own Github account. Then clone it to your 
 Each subdirectory contains some code that needs refactoring.
 
 1. In this README, write one line describing each refactoring you apply and why.
+
+  ```
+  timestamp.py
+    1. Refactoring name of a function create_time_from_timestamp in timestamp.py
+    
+  
+  ```
+
 2. Perform the refactoring in the subdirectory code.
 
 
