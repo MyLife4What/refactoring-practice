@@ -13,9 +13,9 @@ Each subdirectory contains some code that needs refactoring.
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
   ```
-    1. Refactoring name of a function create_time_from_timestamp in timestamp.py to match PEP8.
-    2. Extract method to check valid time.
-    3. Remove else condition.
+   1. Refactoring name of a function create_time_from_timestamp in timestamp.py to match PEP8.
+   2. Extract method to check valid time.
+   3. Remove else condition.
   ```
 
 ## `game_framework/gamelib.py`
@@ -26,6 +26,12 @@ Look for refactorings in the class `GameApp`.
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
   - Hint: `elements`
+
+  ```
+  1. Extract a constant for CANVAS_WIDTH, CANVAS_HEIGHT, TIME_DELAY in GameApp class.
+  2. Replace side effect with return value.
+  3. Add parameters instead of accessing attributes
+  ```
 
 ## `recipe/recipe.py` and `recipe/main.py`
 
